@@ -1,0 +1,125 @@
+*{
+    padding:0px;
+    margin: 0px;
+    letter-spacing: 1px;
+    /* font-family:  */
+}
+.personal-details__top{
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-areas: 'leftt rightt';
+}
+.leftt{
+    grid-area: auto;
+    font-size: 20px;
+    text-align: left;
+}
+.rightt{
+    grid-area: auto;
+    font-size: 15px;
+}
+.personal-details__bottom img, .personal-details__bottom1 img{
+    width: 40px;
+    height: 60px;
+}
+.personal-details__bottom{
+    display:flex;
+    justify-content: space-evenly;
+    border:10px soild black;
+    padding:10px;
+}
+.personal-details__bottom1{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    margin-bottom: 15px;
+}
+.android{
+    height: 60px;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    text-align: left;
+
+}
+.angular{
+    height: 60px;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    text-align: left;
+
+}
+.bootstrap{
+    height: 60px;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    text-align: left;
+
+}
+.vue{
+    height: 60px;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    text-align: left;
+
+}
+.react{
+    height: 60px;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    text-align: left;
+
+}
+.moongodb{
+    height: 60px;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    text-align: left;
+
+}
+.lavarel{
+    height: 60px;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    text-align: left;
+
+}
+.moongodb2{
+    height: 60px;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    text-align: left;
+
+}
