@@ -1,0 +1,67 @@
+*{
+    background-color: #000521;
+}
+.top-container {
+    /* position: relative;
+    display: inline-block; */
+    text-align: center;
+    color:aliceblue;
+}
+
+.tren{
+    text-align: center;
+    color:aliceblue;
+}
+.duoi {
+    font-size: 50px; /* Kích thước chữ */
+    color: #353637; /* Màu chữ */
+    text-shadow: 2px 2px 4px #3d3d3d; /* Độ đậm, vị trí ngang, vị trí dọc, màu của bóng */
+    text-align: center;
+}
+.text{
+    display:flex;
+    justify-content: space-around;
+
+}
+.bottom-container{
+    color:aliceblue;
+}
+h4, h5{
+    display:inline-flex;
+
+}
+h4{
+    color:rgb(209, 129, 149);
+}
+.education{
+    display:flex;
+    /* justify-items:space-evenly; */
+    margin:left;
+}
+.experiense{
+    display:flex;
+    /* justify-items:space-evenly; */
+    margin:right;
+}
+.date1, .date2, .date3, .date4, .date5, .date6{
+    /* background-color: rgb(17, 14, 112); */
+    height: 60px;
+    display: flex;
+    place-content: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(64, 63, 63, 0.7);
+    text-align: left;
+}
+.text1, .text2, .text3, .text4, .text5, .text6{
+    /* background-color: #3e5062; */
+    height: 170px;
+    /* display: flex; */
+    place-content: center;
+    width: 420px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(119, 118, 118, 0.7);
+    text-align: left;
+}
