@@ -1,0 +1,116 @@
+*{
+    background-color: #0B1D33;
+    color:aliceblue;
+}
+#menu{
+    h2{
+    margin-right: 750px;
+    margin-top: 10px;
+    text-align: right;
+    color:#ccc8c5
+}
+  }
+  button{
+    padding: 10px;
+    background-color: #3C86F7;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+  }
+  #menu{
+    display:flex;
+    padding-right: 15px;
+}
+  nav #menu li a{ 
+    color:aliceblue;
+    text-decoration: none;
+    display:block;
+    padding-block-end: 15px;
+    padding: 5px 10px;  }
+  nav #menu li:hover a{
+    background:rgb(99, 131, 86);
+    transition: 0.3s;
+  }
+  .text1-container__top{
+    font-size: 1.4em;
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-areas: 'leftt rightt';
+  }
+.rightt img{
+    height:600px;
+    width:450px;
+    padding-right: 20px;
+  }
+ h5{
+    background-color: #274169;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.inline p{
+    background-color: #3C86F7;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.img1, .img2, .img3{
+    height: 30px;
+    display: flex;
+    width: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(126, 125, 125, 0.7);
+}
+.inline{
+    display:inline-flex;
+    padding: right 20px;
+}
+.inline, .rightt{
+    padding-left: 40px;
+}
+
+.text2-container__top{
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-areas: 'left2 right2';
+  }
+.left2 img{
+    height:600px;
+    width:450px;
+}
+.inline2{
+    display:flex;
+    justify-content: space-evenly;
+    margin:left;
+}
+.inline2 h2 p1{
+    background-color: #949292;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.right2 p{
+    background-color: #3C86F7;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.inline2, .right2{
+    padding-left: 40px;
+}
